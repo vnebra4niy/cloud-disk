@@ -1,0 +1,4 @@
+{
+    "serverPort" : "5000",
+    "dbUrl" : "mongodb+srv://user:user@main.iaxqpya.mongodb.net/"
+}
