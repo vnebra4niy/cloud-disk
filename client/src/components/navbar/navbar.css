@@ -1,0 +1,28 @@
+.navbar {
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a1a1a; /* Более темный фон */
+    padding: 0 20px;
+}
+
+.navbar_header {
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff; /* Белый цвет текста */
+    margin-right: 900px; /* Уменьшим отступ справа */
+}
+
+.navbar_login,
+.navbar_registration {
+    font-size: 18px;
+    color: #575757; /* Серый цвет для текста */
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.navbar_login:hover,
+.navbar_registration:hover {
+    color: #ffffff;
+}

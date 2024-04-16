@@ -1,9 +1,12 @@
 import './App.css';
 import React from 'react'
+import Navbar from './navbar/Navbar'
 
 function App() {
   return (
-    <div>12312313132</div>
+    <div className='app'>
+      <Navbar/>
+    </div>
   )
 }
 
