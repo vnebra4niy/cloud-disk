@@ -40,10 +40,10 @@ const Navbar = () => {
                     onChange={e => searchChangeHandler(e)}
                     className='navbar__search'
                     type="text"
-                    placeholder="Название файла..."/>}
-                {!isAuth && <div className="navbar__login"><NavLink to="/login">Войти</NavLink></div> }
-                {!isAuth && <div className="navbar__registration"><NavLink to="/registration">Регистрация</NavLink></div> }
-                {isAuth && <div className="navbar__login" onClick={() => dispatch(logout()) }>Выход</div> }
+                    placeholder="File name..."/>}
+                {!isAuth && <div className="navbar__login"><NavLink to="/login">Sign in</NavLink></div> }
+                {!isAuth && <div className="navbar__registration"><NavLink to="/registration">Sign up</NavLink></div> }
+                {isAuth && <div className="navbar__login" onClick={() => dispatch(logout()) }>Log out</div> }
             </div>
         </div>
     );
