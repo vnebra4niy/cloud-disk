@@ -1,5 +1,6 @@
 {
     "serverPort" : "5000",
     "dbUrl" : "mongodb+srv://user:user@main.iaxqpya.mongodb.net/",
-    "secretKey" : "reallySecretOneNoWay"
+    "secretKey" : "reallySecretOneNoWay",
+    "filePath" : "C:\\Users\\Mikita\\Documents\\GitHub\\cloud-disk"
 }
